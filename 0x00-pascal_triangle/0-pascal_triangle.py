@@ -3,7 +3,8 @@
 0-pascal_triangle
 """
 
-def pascal_triangle(n): # defines a function named pascal_triangle
+
+def pascal_triangle(n):  # defines a function named pascal_triangle
     """
     Returns a list of integers
     representing the Pascal Triangle of n
@@ -17,7 +18,7 @@ def pascal_triangle(n): # defines a function named pascal_triangle
         row = [1]
         for j in range(1, len(result[-1])):
             row.append(result[-1][j - 1] + result[-1][j])
-        row.append(1) 
+        row.append(1)
         result.append(row)
 
     return result
