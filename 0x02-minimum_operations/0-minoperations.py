@@ -6,7 +6,7 @@ Minimum Operations
 """
 def minOperations(n: int) -> int:
     """ Minimum Operations needed to get n H characters """
-    next = 'H'
+""" next = 'H'
     body = 'H'
     op = 0
     while (len(body) < n):
