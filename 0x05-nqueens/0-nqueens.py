@@ -1,22 +1,30 @@
+#!/usr/bin/python3
+"""
+This module finds N queens solution
+"""
+
 import sys
 
 
 solutions = []
-"""The list of possible solutions to the N queens problem.
+"""
+This is a  list of possible solutions to the N
+queens problem.
 """
 n = 0
-"""The size of the chessboard.
+"""
+This is the size of the chessboard.
 """
 pos = None
-"""The list of possible positions on the chessboard.
+"""
+This is the  list of possible positions on the chessboard.
 """
 
 
 def get_input():
-    """Retrieves and validates this program's argument.
-
-    Returns:
-        int: The size of the chessboard.
+    """
+    This function retrieves and validates this program's
+    argument and returns the  size of the chessboard.
     """
     global n
     n = 0
@@ -35,7 +43,9 @@ def get_input():
 
 
 def is_attacking(pos0, pos1):
-    """Checks if the positions of two queens are in an attacking mode.
+    """
+    This function checks if the positions of two queens
+    are in an attacking mode.
 
     Args:
         pos0 (list or tuple): The first queen's position.
