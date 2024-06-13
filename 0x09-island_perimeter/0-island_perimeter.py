@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-This module defines island perimeter finding function
+This module defines island perimeter fiinding function
 """
 
 
